@@ -41,5 +41,14 @@ Then to build:
      cd <source-dir>
      . build/envsetup.sh && export ALLOW_MISSING_DEPENDENCIES=true 
      lunch omni_<device>-eng && mka recoveryimage
+
+Note for darwin(macOS) hosts:
+ please use bash and gnu-sed as the one shipped in mac's coreutils won't work well.
+ 
+      brew install gnu-sed
+
+ add this to your .bash_profile:
+ 
+      export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
      
 
