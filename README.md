@@ -4,8 +4,6 @@
 
 <a href="https://sourceforge.net/projects/orangefox/files"><img alt="Download OrangeFox" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
 
-<a title="Crowdin" target="_blank" href="https://crowdin.com/project/orangefox"><img src="https://d322cqt584bo4o.cloudfront.net/orangefox/localized.svg"></a>
-
 ---------------
 
 ## Prepare to build ##
