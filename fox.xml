@@ -19,9 +19,9 @@
     <remove-project name="android"/>  
 
 <!-- Add forked projects -->
-    <project name="Recovery" path="bootable/recovery" remote="fox" revision="master" />
-    <project name="Vendor" path="vendor/recovery" remote="fox" revision="master" />
-    <project name="Build" path="build/make" remote="fox" revision="fox_9.0" >
+    <project name="bootable/recovery" path="bootable/recovery" remote="fox" revision="master" />
+    <project name="vendor/recovery" path="vendor/recovery" remote="fox" revision="master" />
+    <project name="build/make" path="build/make" remote="fox" revision="fox_9.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -32,8 +32,8 @@
     </project>
 
     <!--project name="f2fs-tools" path="external/f2fs-tools" remote="fox" /-->
-    <project path="external/busybox" name="android_external_busybox" remote="fox" revision="android-9.0" />
-    <project path="vendor/qcom/opensource/commonsys" name="android_vendor_qcom_opensource_commonsys" remote="fox" revision="android-9.0" />
+    <project path="external/busybox" name="external/busybox" remote="fox" revision="android-9.0" />
+    <project path="vendor/qcom/opensource/commonsys" name="vendor/qcom/opensource/commonsys" remote="fox" revision="android-9.0" />
     
 
 <!-- Include external Magisk repo for repack binaries -->
