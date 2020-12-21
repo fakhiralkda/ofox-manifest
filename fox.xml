@@ -19,7 +19,7 @@
     <remove-project name="android"/>  
 
 <!-- Add forked projects -->
-    <project name="bootable/recovery" path="bootable/recovery" remote="fox" revision="master" />
+    <project name="bootable/recovery" path="bootable/recovery" remote="fox" revision="fox_9.0" />
     <project name="vendor/recovery" path="vendor/recovery" remote="fox" revision="master" />
     <project name="build/make" path="build/make" remote="fox" revision="fox_9.0" >
         <copyfile src="core/root.mk" dest="Makefile" />
